@@ -8,6 +8,8 @@
 }
 .course-info h3{
     font-size: .9rem;
+    font-weight: 700;
+    margin-top: 10px;
 }
 .course-info button{
     color: #ffffff;
