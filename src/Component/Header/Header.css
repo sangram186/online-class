@@ -1,0 +1,53 @@
+.nav{
+
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #ffe799;
+}
+.nav img{
+    height: 80px;
+    text-align: center;
+}
+.cart button{
+    font-size: 23px;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4c4db7;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.cart button:active{
+    outline: none;
+    background-color: #2b2ebe;
+  }
+.banner img{
+    margin: 20px auto;
+    display: block;
+}
+.course-buy{
+    background-color: #42b029;
+    padding: 5px 10px;
+    line-height: 9px;
+    font-size: 21px;
+    border-radius: 5px;
+}
+.header{
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    z-index: 2;
+    top: 46%;
+    line-height: 34px;
+    background: white;
+    padding: 26px;
+    margin-left: 38px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #80808038;
+}

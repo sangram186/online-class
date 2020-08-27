@@ -1,0 +1,29 @@
+.main-cart{
+    position: fixed;
+    width: 250px;
+    height: 80vh;
+    top: 100px;
+    left: 15px;
+    overflow: auto;
+    padding: 11px;
+    box-shadow: 2px 3px 6px 3px lightgrey;
+    border-radius: 5px;
+}
+.main-cart h2{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    background: #4c4db7;
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 14px;
+}
+.enrolled-course{
+    margin-bottom: 10px;
+    word-break: break-all;
+    /* border-bottom: 1px solid gray; */
+    padding-bottom: 5px;
+}
+.enrolled-course:last-child{
+    border-bottom: none;
+}

@@ -1,0 +1,39 @@
+.ratting{
+    color: #be5a0e;
+    font-weight: bold;
+}
+.course-info{
+    padding: 10px;
+    line-height: 1.4rem;
+}
+.course-info h3{
+    font-size: .9rem;
+}
+.course-info button{
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background: #4e4db5;
+    font-size: 16px;
+    font-weight: 700;
+}
+.course-info button:hover{
+    cursor: pointer;
+    background: #4442c8;
+}
+.course-info button:active{
+
+    font-size: 14px;
+    outline: none;
+    border: none;
+}
+.course-info button:focus{
+    outline: none;
+    border: none; 
+}
+.course-info img{
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
